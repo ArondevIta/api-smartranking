@@ -57,7 +57,6 @@ export class JogadoresService {
     const { email, nome, telefoneCelular } = criarJogadorDto;
 
     const jogador: Jogador = {
-      _id: uuidv4(),
       nome,
       telefoneCelular,
       email,
